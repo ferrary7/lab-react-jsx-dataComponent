@@ -1,0 +1,18 @@
+/* add your styles here */
+
+h1{
+    padding: 15px;
+    text-align: center;
+    font-weight: 1000;
+}
+.Gallery{
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    margin: 15px;
+}
+
+.Gallery img{
+    width: 100%;
+}
